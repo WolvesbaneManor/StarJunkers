@@ -1,0 +1,28 @@
+{
+  "name": "star-junkers",
+  "title": "Star Junkers",
+  "description": "A one-page RPG in which players take on the roles of the crew of a rundown salvage vessel taking jobs as they come across the StellarComm. It’s dirty and dangerous work, but it beats mining asteroids, waiting in line for water rations, or fighting the aliens some diplomat insulted because his hand twitched the wrong way.",
+  "version": "1.1.0",
+  "minimumCoreVersion": "0.8.3",
+  "compatibleCoreVersion": "0.8.6",
+  "author": "Wolvesbane Manor",
+  "esmodules": ["module/star-junkers.mjs"],
+  "styles": ["css/star-junkers.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "health",
+  "secondaryTokenAttribute": "power",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
