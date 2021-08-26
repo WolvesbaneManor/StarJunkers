@@ -1,5 +1,3 @@
-import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/effects.mjs";
-
 /**
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
@@ -45,16 +43,8 @@ export class StarJunkersActorSheet extends ActorSheet {
       this._prepareCharacterData(context);
     }
 
-    // Prepare NPC data and items.
-    if (actorData.type == 'npc') {
-      this._prepareItems(context);
-    }
-
     // Add roll data for TinyMCE editors.
     context.rollData = context.actor.getRollData();
-
-    // Prepare active effects
-    context.effects = prepareActiveEffectCategories(this.actor.effects);
 
     return context;
   }
@@ -83,19 +73,6 @@ export class StarJunkersActorSheet extends ActorSheet {
   _prepareItems(context) {
     // Initialize containers.
     const gear = [];
-    const features = [];
-    const spells = {
-      0: [],
-      1: [],
-      2: [],
-      3: [],
-      4: [],
-      5: [],
-      6: [],
-      7: [],
-      8: [],
-      9: []
-    };
 
     // Iterate through items, allocating to containers
     for (let i of context.items) {
@@ -104,22 +81,10 @@ export class StarJunkersActorSheet extends ActorSheet {
       if (i.type === 'item') {
         gear.push(i);
       }
-      // Append to features.
-      else if (i.type === 'feature') {
-        features.push(i);
-      }
-      // Append to spells.
-      else if (i.type === 'spell') {
-        if (i.data.spellLevel != undefined) {
-          spells[i.data.spellLevel].push(i);
-        }
-      }
     }
 
     // Assign and return
     context.gear = gear;
-    context.features = features;
-    context.spells = spells;
    }
 
   /* -------------------------------------------- */
@@ -149,9 +114,6 @@ export class StarJunkersActorSheet extends ActorSheet {
       item.delete();
       li.slideUp(200, () => this.render(false));
     });
-
-    // Active Effect management
-    html.find(".effect-control").click(ev => onManageActiveEffect(ev, this.actor));
 
     // Rollable abilities.
     html.find('.rollable').click(this._onRoll.bind(this));
