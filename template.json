@@ -1,6 +1,6 @@
 {
   "Actor": {
-    "types": ["character", "npc"],
+    "types": ["character"],
     "templates": {
       "base": {
         "health": {
@@ -19,38 +19,36 @@
     "character": {
       "templates": ["base"],
       "attributes": {
-        "level": {
-          "value": 1
+        "species": {
+          "value": "Human"
         }
       },
       "abilities": {
-        "str": {
-          "value": 10
+        "eng": {
+          "value": 2,
+          "max": 5
         },
-        "dex": {
-          "value": 10
+        "dem": {
+          "value": 2,
+          "max": 5
         },
-        "con": {
-          "value": 10
+        "plt": {
+          "value": 2,
+          "max": 5
         },
-        "int": {
-          "value": 10
+        "wpn": {
+          "value": 2,
+          "max": 5
         },
-        "wis": {
-          "value": 10
-        },
-        "cha": {
-          "value": 10
+        "med": {
+          "value": 2,
+          "max": 5
         }
       }
-    },
-    "npc": {
-      "templates": ["base"],
-      "cr": 0
     }
   },
   "Item": {
-    "types": ["item", "feature", "spell"],
+    "types": ["item"],
     "templates": {
       "base": {
         "description": ""
@@ -60,14 +58,7 @@
       "templates": ["base"],
       "quantity": 1,
       "weight": 0,
-      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
-    },
-    "feature": {
-      "templates": ["base"]
-    },
-    "spell": {
-      "templates": ["base"],
-      "spellLevel": 1
+      "formula": "d6"
     }
   }
 }

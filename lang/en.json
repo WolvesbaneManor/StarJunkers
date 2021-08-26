@@ -1,22 +1,19 @@
 {
-  "BOILERPLATE.AbilityStr": "Strength",
-  "BOILERPLATE.AbilityCon": "Constitution",
-  "BOILERPLATE.AbilityDex": "Dexterity",
-  "BOILERPLATE.AbilityInt": "Intelligence",
-  "BOILERPLATE.AbilityWis": "Wisdom",
-  "BOILERPLATE.AbilityCha": "Charisma",
+  "BOILERPLATE.SpeciesLabel": "Species",
+  "BOILERPLATE.AbilityEng": "Engineering",
+  "BOILERPLATE.AbilityDem": "Demolition",
+  "BOILERPLATE.AbilityPlt": "Piloting",
+  "BOILERPLATE.AbilityWpn": "Weaponry",
+  "BOILERPLATE.AbilityMed": "Medicine",
 
-  "BOILERPLATE.AbilityStrAbbr": "str",
-  "BOILERPLATE.AbilityConAbbr": "con",
-  "BOILERPLATE.AbilityDexAbbr": "dex",
-  "BOILERPLATE.AbilityIntAbbr": "int",
-  "BOILERPLATE.AbilityWisAbbr": "wis",
-  "BOILERPLATE.AbilityChaAbbr": "cha",
+  "BOILERPLATE.AbilityEngAbbr": "eng",
+  "BOILERPLATE.AbilityDemAbbr": "dem",
+  "BOILERPLATE.AbilityPltAbbr": "plt",
+  "BOILERPLATE.AbilityWpnAbbr": "wpn",
+  "BOILERPLATE.AbilityMedAbbr": "med",
 
-  "BOILERPLATE.EffectCreate": "Create Effect",
-  "BOILERPLATE.EffectToggle": "Toggle Effect",
-  "BOILERPLATE.EffectEdit": "Edit Effect",
-  "BOILERPLATE.EffectDelete": "Delete Effect",
-
-  "BOILERPLATE.Add": "Add"
+  "BOILERPLATE.Inventory": "Inventory",
+  "BOILERPLATE.Add": "Add",
+  "BOILERPLATE.Failure": " fails their attempt to use ",
+  "BOILERPLATE.Success": " succeeds in their attempt to use "
 }

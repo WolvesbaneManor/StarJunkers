@@ -215,14 +215,18 @@ export class StarJunkersActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let label = dataset.label ? `[ability] ${dataset.label}` : '';
+      let fail = this.actor.name + game.i18n.localize("BOILERPLATE.Failure") + dataset.label;
+      let success = this.actor.name + game.i18n.localize("BOILERPLATE.Success") + dataset.label;
       let roll = new Roll(dataset.roll, this.actor.getRollData()).roll();
-      roll.toMessage({
-        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-        flavor: label,
-        rollMode: game.settings.get('core', 'rollMode'),
-      });
-      return roll;
+
+      let msg = roll.total ? "<h2 style='color: green;'>Success</h2>" + success : "<h2 style='color: red;'>Failure</h2>" + fail;
+      // Send message to chat
+      let chatData = {
+        user : game.user._id,
+        speaker: ChatMessage.getSpeaker(),
+        content : msg,
+      };
+      ChatMessage.create(chatData,{});
     }
   }
 
