@@ -7,9 +7,9 @@
   return loadTemplates([
 
     // Actor partials.
-    "systems/star-junkers/templates/actor/parts/actor-features.html",
-    "systems/star-junkers/templates/actor/parts/actor-items.html",
-    "systems/star-junkers/templates/actor/parts/actor-spells.html",
-    "systems/star-junkers/templates/actor/parts/actor-effects.html",
+    "systems/starjunkers/templates/actor/parts/actor-features.html",
+    "systems/starjunkers/templates/actor/parts/actor-items.html",
+    "systems/starjunkers/templates/actor/parts/actor-spells.html",
+    "systems/starjunkers/templates/actor/parts/actor-effects.html",
   ]);
 };

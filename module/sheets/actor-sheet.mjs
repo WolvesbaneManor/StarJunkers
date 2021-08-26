@@ -4,13 +4,13 @@ import {onManageActiveEffect, prepareActiveEffectCategories} from "../helpers/ef
  * Extend the basic ActorSheet with some very simple modifications
  * @extends {ActorSheet}
  */
-export class Star-JunkersActorSheet extends ActorSheet {
+export class StarJunkersActorSheet extends ActorSheet {
 
   /** @override */
   static get defaultOptions() {
     return mergeObject(super.defaultOptions, {
-      classes: ["star-junkers", "sheet", "actor"],
-      template: "systems/star-junkers/templates/actor/actor-sheet.html",
+      classes: ["starjunkers", "sheet", "actor"],
+      template: "systems/starjunkers/templates/actor/actor-sheet.html",
       width: 600,
       height: 600,
       tabs: [{ navSelector: ".sheet-tabs", contentSelector: ".sheet-body", initial: "features" }]
@@ -19,7 +19,7 @@ export class Star-JunkersActorSheet extends ActorSheet {
 
   /** @override */
   get template() {
-    return `systems/star-junkers/templates/actor/actor-${this.actor.data.type}-sheet.html`;
+    return `systems/starjunkers/templates/actor/actor-${this.actor.data.type}-sheet.html`;
   }
 
   /* -------------------------------------------- */

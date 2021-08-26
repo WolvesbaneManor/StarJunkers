@@ -223,19 +223,19 @@
   text-align: center;
 }
 
-/* Styles limited to star-junkers sheets */
-.star-junkers {
+/* Styles limited to starjunkers sheets */
+.starjunkers {
   /* ----------------------------------------- */
   /*  Items Lists                              */
   /* ----------------------------------------- */
-  /* Example style for Star-Junkers (can be removed if not needed) */
+  /* Example style for StarJunkers (can be removed if not needed) */
 }
 
-.star-junkers .item-form {
+.starjunkers .item-form {
   font-family: "Roboto", sans-serif;
 }
 
-.star-junkers .sheet-header {
+.starjunkers .sheet-header {
   -webkit-box-flex: 0;
   -ms-flex: 0 auto;
   flex: 0 auto;
@@ -255,7 +255,7 @@
   margin-bottom: 10px;
 }
 
-.star-junkers .sheet-header .profile-img {
+.starjunkers .sheet-header .profile-img {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 100px;
   flex: 0 0 100px;
@@ -263,50 +263,50 @@
   margin-right: 10px;
 }
 
-.star-junkers .sheet-header .header-fields {
+.starjunkers .sheet-header .header-fields {
   -webkit-box-flex: 1;
   -ms-flex: 1;
   flex: 1;
 }
 
-.star-junkers .sheet-header h1.charname {
+.starjunkers .sheet-header h1.charname {
   height: 50px;
   padding: 0px;
   margin: 5px 0;
   border-bottom: 0;
 }
 
-.star-junkers .sheet-header h1.charname input {
+.starjunkers .sheet-header h1.charname input {
   width: 100%;
   height: 100%;
   margin: 0;
 }
 
-.star-junkers .sheet-tabs {
+.starjunkers .sheet-tabs {
   -webkit-box-flex: 0;
   -ms-flex: 0;
   flex: 0;
 }
 
-.star-junkers .sheet-body,
-.star-junkers .sheet-body .tab,
-.star-junkers .sheet-body .tab .editor {
+.starjunkers .sheet-body,
+.starjunkers .sheet-body .tab,
+.starjunkers .sheet-body .tab .editor {
   height: 100%;
 }
 
-.star-junkers .tox .tox-editor-container {
+.starjunkers .tox .tox-editor-container {
   background: #fff;
 }
 
-.star-junkers .tox .tox-edit-area {
+.starjunkers .tox .tox-edit-area {
   padding: 0 8px;
 }
 
-.star-junkers .resource-label {
+.starjunkers .resource-label {
   font-weight: bold;
 }
 
-.star-junkers .items-header {
+.starjunkers .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -318,12 +318,12 @@
   font-weight: bold;
 }
 
-.star-junkers .items-header > * {
+.starjunkers .items-header > * {
   font-size: 14px;
   text-align: center;
 }
 
-.star-junkers .items-header .item-name {
+.starjunkers .items-header .item-name {
   font-weight: bold;
   padding-left: 5px;
   text-align: left;
@@ -332,7 +332,7 @@
   display: flex;
 }
 
-.star-junkers .items-list {
+.starjunkers .items-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -341,13 +341,13 @@
   color: #444;
 }
 
-.star-junkers .items-list .item-list {
+.starjunkers .items-list .item-list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.star-junkers .items-list .item-name {
+.starjunkers .items-list .item-name {
   -webkit-box-flex: 2;
   -ms-flex: 2;
   flex: 2;
@@ -363,13 +363,13 @@
   display: flex;
 }
 
-.star-junkers .items-list .item-name h3, .star-junkers .items-list .item-name h4 {
+.starjunkers .items-list .item-name h3, .starjunkers .items-list .item-name h4 {
   margin: 0;
   white-space: nowrap;
   overflow-x: hidden;
 }
 
-.star-junkers .items-list .item-controls {
+.starjunkers .items-list .item-controls {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -381,13 +381,13 @@
   justify-content: flex-end;
 }
 
-.star-junkers .items-list .item-controls a {
+.starjunkers .items-list .item-controls a {
   font-size: 12px;
   text-align: center;
   margin: 0 6px;
 }
 
-.star-junkers .items-list .item {
+.starjunkers .items-list .item {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -395,15 +395,15 @@
   border-bottom: 1px solid #c9c7b8;
 }
 
-.star-junkers .items-list .item:last-child {
+.starjunkers .items-list .item:last-child {
   border-bottom: none;
 }
 
-.star-junkers .items-list .item .item-name {
+.starjunkers .items-list .item .item-name {
   color: #191813;
 }
 
-.star-junkers .items-list .item .item-name .item-image {
+.starjunkers .items-list .item .item-name .item-image {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 30px;
   flex: 0 0 30px;
@@ -413,14 +413,14 @@
   margin-right: 5px;
 }
 
-.star-junkers .items-list .item-prop {
+.starjunkers .items-list .item-prop {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.star-junkers .items-list .items-header {
+.starjunkers .items-list .items-header {
   height: 28px;
   margin: 2px 0;
   padding: 0;
@@ -432,32 +432,32 @@
   font-weight: bold;
 }
 
-.star-junkers .items-list .items-header > * {
+.starjunkers .items-list .items-header > * {
   font-size: 12px;
   text-align: center;
 }
 
-.star-junkers .items-list .items-header .item-name {
+.starjunkers .items-list .items-header .item-name {
   padding-left: 5px;
   text-align: left;
 }
 
-.star-junkers .item-formula {
+.starjunkers .item-formula {
   -webkit-box-flex: 0;
   -ms-flex: 0 0 200px;
   flex: 0 0 200px;
   padding: 0 8px;
 }
 
-.star-junkers .effects .item .effect-source,
-.star-junkers .effects .item .effect-duration,
-.star-junkers .effects .item .effect-controls {
+.starjunkers .effects .item .effect-source,
+.starjunkers .effects .item .effect-duration,
+.starjunkers .effects .item .effect-controls {
   text-align: center;
   border-left: 1px solid #c9c7b8;
   border-right: 1px solid #c9c7b8;
   font-size: 12px;
 }
 
-.star-junkers .effects .item .effect-controls {
+.starjunkers .effects .item .effect-controls {
   border: none;
 }
