@@ -1,23 +1,23 @@
-export const BOILERPLATE = {};
+export const STARJUNKERS = {};
 
 /**
  * The set of Ability Scores used within the sytem.
  * @type {Object}
  */
- BOILERPLATE.abilities = {
-  "str": "BOILERPLATE.AbilityStr",
-  "dex": "BOILERPLATE.AbilityDex",
-  "con": "BOILERPLATE.AbilityCon",
-  "int": "BOILERPLATE.AbilityInt",
-  "wis": "BOILERPLATE.AbilityWis",
-  "cha": "BOILERPLATE.AbilityCha"
+ STARJUNKERS.abilities = {
+  "str": "STARJUNKERS.AbilityStr",
+  "dex": "STARJUNKERS.AbilityDex",
+  "con": "STARJUNKERS.AbilityCon",
+  "int": "STARJUNKERS.AbilityInt",
+  "wis": "STARJUNKERS.AbilityWis",
+  "cha": "STARJUNKERS.AbilityCha"
 };
 
-BOILERPLATE.abilityAbbreviations = {
-  "str": "BOILERPLATE.AbilityStrAbbr",
-  "dex": "BOILERPLATE.AbilityDexAbbr",
-  "con": "BOILERPLATE.AbilityConAbbr",
-  "int": "BOILERPLATE.AbilityIntAbbr",
-  "wis": "BOILERPLATE.AbilityWisAbbr",
-  "cha": "BOILERPLATE.AbilityChaAbbr"
+STARJUNKERS.abilityAbbreviations = {
+  "str": "STARJUNKERS.AbilityStrAbbr",
+  "dex": "STARJUNKERS.AbilityDexAbbr",
+  "con": "STARJUNKERS.AbilityConAbbr",
+  "int": "STARJUNKERS.AbilityIntAbbr",
+  "wis": "STARJUNKERS.AbilityWisAbbr",
+  "cha": "STARJUNKERS.AbilityChaAbbr"
 };

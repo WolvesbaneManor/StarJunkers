@@ -69,7 +69,7 @@ export class StarJunkersActorSheet extends ActorSheet {
   _prepareCharacterData(context) {
     // Handle ability scores.
     for (let [k, v] of Object.entries(context.data.abilities)) {
-      v.label = game.i18n.localize(CONFIG.BOILERPLATE.abilities[k]) ?? k;
+      v.label = game.i18n.localize(CONFIG.STARJUNKERS.abilities[k]) ?? k;
     }
   }
 
@@ -215,8 +215,8 @@ export class StarJunkersActorSheet extends ActorSheet {
 
     // Handle rolls that supply the formula directly.
     if (dataset.roll) {
-      let fail = this.actor.name + game.i18n.localize("BOILERPLATE.Failure") + dataset.label;
-      let success = this.actor.name + game.i18n.localize("BOILERPLATE.Success") + dataset.label;
+      let fail = this.actor.name + game.i18n.localize("STARJUNKERS.Failure") + dataset.label;
+      let success = this.actor.name + game.i18n.localize("STARJUNKERS.Success") + dataset.label;
       let roll = new Roll(dataset.roll, this.actor.getRollData()).roll();
 
       let msg = roll.total ? "<h2 style='color: green;'>Success</h2>" + success : "<h2 style='color: red;'>Failure</h2>" + fail;

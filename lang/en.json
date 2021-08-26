@@ -1,19 +1,19 @@
 {
-  "BOILERPLATE.SpeciesLabel": "Species",
-  "BOILERPLATE.AbilityEng": "Engineering",
-  "BOILERPLATE.AbilityDem": "Demolition",
-  "BOILERPLATE.AbilityPlt": "Piloting",
-  "BOILERPLATE.AbilityWpn": "Weaponry",
-  "BOILERPLATE.AbilityMed": "Medicine",
+  "STARJUNKERS.SpeciesLabel": "Species",
+  "STARJUNKERS.AbilityEng": "Engineering",
+  "STARJUNKERS.AbilityDem": "Demolition",
+  "STARJUNKERS.AbilityPlt": "Piloting",
+  "STARJUNKERS.AbilityWpn": "Weaponry",
+  "STARJUNKERS.AbilityMed": "Medicine",
 
-  "BOILERPLATE.AbilityEngAbbr": "eng",
-  "BOILERPLATE.AbilityDemAbbr": "dem",
-  "BOILERPLATE.AbilityPltAbbr": "plt",
-  "BOILERPLATE.AbilityWpnAbbr": "wpn",
-  "BOILERPLATE.AbilityMedAbbr": "med",
+  "STARJUNKERS.AbilityEngAbbr": "eng",
+  "STARJUNKERS.AbilityDemAbbr": "dem",
+  "STARJUNKERS.AbilityPltAbbr": "plt",
+  "STARJUNKERS.AbilityWpnAbbr": "wpn",
+  "STARJUNKERS.AbilityMedAbbr": "med",
 
-  "BOILERPLATE.Inventory": "Inventory",
-  "BOILERPLATE.Add": "Add",
-  "BOILERPLATE.Failure": " fails their attempt to use ",
-  "BOILERPLATE.Success": " succeeds in their attempt to use "
+  "STARJUNKERS.Inventory": "Inventory",
+  "STARJUNKERS.Add": "Add",
+  "STARJUNKERS.Failure": " fails their attempt to use ",
+  "STARJUNKERS.Success": " succeeds in their attempt to use "
 }
